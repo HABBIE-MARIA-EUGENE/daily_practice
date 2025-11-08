@@ -84,6 +84,9 @@ for i in range(1,5+1):
     sum+=i
 print(sum)
 
+
+
+
 count=2
 sum=0
 
@@ -93,3 +96,19 @@ for i in range(count):
     sum+=a
 
 print(sum)
+
+
+
+count=3
+sum=0
+list=[]
+
+for i in range(count):
+    a=int(input(f"enter number {i} "))
+    list.append(a)
+    sum+=a
+
+print(sum)
+print(list)
+avg=sum/count
+print(avg)
