@@ -112,3 +112,12 @@ print(sum)
 print(list)
 avg=sum/count
 print(avg)
+
+
+
+
+n=5
+
+
+for i in range(1,n+1):
+    print("*"*i)
