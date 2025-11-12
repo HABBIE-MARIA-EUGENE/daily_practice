@@ -118,3 +118,21 @@ if unit=="L" or unit=="l":
 
 elif unit=="K" or unit=="k":
     print("Weight in Lbs: ",weight//0.45359237)
+
+
+
+weight = int(input("weight: "))
+
+unit = input("(K)g or (L)bs: ")
+
+
+if unit.upper() =="L":
+    converted = weight * 0.45
+    print("Weight in Kg: ",converted)
+    print("Weight in Kg: "+str(converted))
+
+else:
+    converted = weight/0.45
+    print("Weight in Lbs: ",converted)
+    print("Weight in Lbs: "+str(converted))
+
