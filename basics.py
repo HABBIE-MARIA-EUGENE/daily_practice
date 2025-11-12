@@ -215,3 +215,89 @@ i = 0
 while i < len(numbers):
     print(numbers[i])
     i = i+1
+
+
+
+numbers = range(5)
+
+print(numbers)
+
+for number in numbers:
+    print(number,end=",")
+
+
+numbers = range(5,10)
+
+print(numbers)
+
+for number in numbers:
+    print(number,end=",")
+
+print()
+numbers = range(5 , 10, 2)  #first val->starting ,second val->ending third val->steps
+
+print(numbers)
+
+for number in numbers:
+    print(number,end=",")
+
+
+#tuples - like list but immutable 
+
+numbers = (1, 2, 3)
+
+coordinates = (1, 2, 3)
+
+x = coordinates[0]
+y = coordinates[1]
+z = coordinates[2]
+
+x, y, z = coordinates  # short hand for the above code(unpacking)
+
+print(x)
+print(y)
+print(z)
+
+
+
+#Dict
+
+customer = {
+    "name": "Habbie Maria Eugene",
+    "age": 24,
+    "is_verified": True
+}
+
+print(customer["name"])
+print(customer.get("name"))
+
+print(customer.get("dob","14-09-2001"))
+
+print(customer)
+
+customer["name"] = "Eugene"
+print(customer)
+
+customer["dob"] = "14-09-2001"
+print(customer)
+print(customer["dob"])
+
+
+
+phone = input("phone: ")
+ 
+digits_mapping = {
+    "1": "one",
+    "2": "Two",
+    "3": "Three",
+    "4": "Four",
+    "5": "Five",
+    "6": "Six"
+ }
+output =""
+for char in phone:
+    output += digits_mapping.get(char,"!") + " "
+
+print(output)
+
+
