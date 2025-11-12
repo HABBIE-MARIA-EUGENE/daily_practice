@@ -75,3 +75,32 @@ print(price>10 or price <30)
 
 price = 5
 print(not price > 10)
+
+
+
+
+temperature = 35
+
+if temperature>30:
+    print("It`s a hot day")
+    print("Drink plenty of water")
+else:
+    print("Normal weather")
+
+
+temperature = 25
+
+if temperature>30:
+    print("hot weather")
+print("Done")
+
+
+temperature = 25
+
+if temperature>30:
+    print("hot weather")
+elif temperature >20:         #[20,30]
+    print("It's a nice day")
+elif temperature >10:         #[10,20]
+    print("It's very cold")
+print("Done")
