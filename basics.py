@@ -162,3 +162,17 @@ while i<=10:
     i = i + 1
 
 
+#list
+
+names = ["habbie", "maria", "eugene", "hello", "world"]
+
+print(names)
+
+print(names[0])
+print(names[-1])
+print(names[-2])
+
+names[0] = "Habbie"
+print(names)
+
+print(names[0:3])   #upto end index excluding end index
