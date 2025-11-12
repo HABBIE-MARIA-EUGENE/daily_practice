@@ -104,3 +104,17 @@ elif temperature >20:         #[20,30]
 elif temperature >10:         #[10,20]
     print("It's very cold")
 print("Done")
+
+
+
+
+weight = int(input("weight: "))
+
+unit = input("(K)g or (L)bs: ")
+
+
+if unit=="L" or unit=="l":
+    print("Weight in Kg: ",int(weight*0.45359237))
+
+elif unit=="K" or unit=="k":
+    print("Weight in Lbs: ",weight//0.45359237)
