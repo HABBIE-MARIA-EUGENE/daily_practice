@@ -176,3 +176,42 @@ names[0] = "Habbie"
 print(names)
 
 print(names[0:3])   #upto end index excluding end index
+
+
+
+
+numbers = [1,2,3,4,5]
+print(numbers)
+
+numbers.append(6)  #appends at the end of the list
+print(numbers)
+
+numbers.insert(0,-1)
+print(numbers)
+
+numbers.remove(3)
+print(numbers)
+
+
+print(1 in numbers)
+print(7 in numbers)
+
+
+print(len(numbers))  #to get number of items in the list
+
+
+numbers.clear()
+print(numbers)
+
+
+numbers = [1,2,3,4,5,6]
+
+print(numbers)
+
+for item in numbers:
+    print(item)
+
+i = 0
+while i < len(numbers):
+    print(numbers[i])
+    i = i+1
