@@ -137,6 +137,18 @@ else:
     print("Weight in Lbs: "+str(converted))
 
 
+weight = int(input("weight : "))
+unit = input("(K)g or g : ")
+
+if unit.upper()=='K':
+    converted = weight*1000
+    print(f"{converted} grams")
+else:
+    converted = weight/1000
+    print(f"{converted} Kilograms")
+    print(str(converted)+ " Kilograms")
+
+
 
 
 i = 1
